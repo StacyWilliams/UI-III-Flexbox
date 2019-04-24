@@ -63,4 +63,132 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code star ts here! */
+
+	
+
+.nav-bar {
+	display: flex;
+	/* border-bottom: 1px solid black; */
+	align-content: center;
+}
+.head {
+	display:flex;
+	border-bottom: 1px solid black;
+	padding:50px;
+	
+	
+}
+header nav {
+	display: inline-block;
+	
+}
+
+header img.logo {
+	margin-left: 400px; 
+}
+header nav a {
+	margin:0 70px;
+	
+}
+a {
+	color: grey;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column; 
+	width:100px; 
+	margin-left:400px; 
+	
+
+	
+	
+}
+.logo2{
+	/* display: inline-block;  */
+	border-bottom: black;
+	/* width:50px; */
+	margin-left:400px;
+	padding:20px;
+
+}
+.main-content{
+	display: flex;
+	padding: 30px;
+	
+
+}
+ .top-content {  
+	 /* display: inline-flex; */
+	 /* align-content: stretch; */
+	 height: 400px;
+	 width: 2000px;
+	 /* border: 1px solid red; */
+	 display:flex;
+	 justify-content: space-around;
+	 align-items: center; 
+	 /* flex-direction: row; */
+	 flex-wrap: wrap;
+	 
+
+ }
+.features { 
+	  
+	width:300px;
+	/* margin:100px; */
+	
+} 
+.about {  
+    
+	width:300px;
+	/* margin: 10px; */
+}
+.middle-img {
+    height: 200px;
+	width: 1500px;
+	/* margin: 150px; */
+}
+
+.bottom {  
+	
+	display:flex; 
+	width: 2000px;
+	height: 350px;
+	border-bottom: 1px solid black; 
+	padding: 20px;
+	align-content: center; 
+	
+		
+}
+ .services { 
+	
+	  width:325px;  
+	  margin:100px;   
+	
+}
+
+.product  { 
+	
+	width:325px;  
+    margin:100px;
+}
+	
+	
+.vision  { 
+	
+	 width:325px;  
+	 margin:100px;
+	
+ } 
+h1 {
+	font-size: 100px;
+}
+
+.contact {
+	display: inline-flex;
+	height: 100px;
+	 padding: 10px; 
+	margin: 100px; 
+}
+  
