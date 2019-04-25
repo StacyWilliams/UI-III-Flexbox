@@ -67,18 +67,33 @@ h1, h2, h3, h4, h5 {
 
 	
 
+
 .nav-bar {
 	display: flex;
 	/* border-bottom: 1px solid black; */
 	align-content: center;
+	margin:0px 460px;
+	/*width: 1000px;*/
 }
 .head {
 	display:flex;
 	border-bottom: 1px solid black;
 	padding:50px;
-	
-	
+}	
+ .top  {
+	/*width: 8000px;
+	 height: 400px;*/
+	 margin: 0px 460px;
+	display:inline-flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	/*padding:50px; */
+
 }
+.services-header-img p {
+	font: bold;
+}	 
+
 header nav {
 	display: inline-block;
 	
@@ -88,7 +103,7 @@ header img.logo {
 	margin-left: 400px; 
 }
 header nav a {
-	margin:0 70px;
+	padding: 5px;
 	
 }
 a {
@@ -100,8 +115,6 @@ a {
 	flex-direction: column; 
 	width:100px; 
 	margin-left:400px; 
-	
-
 	
 	
 }
@@ -156,7 +169,7 @@ a {
 	width: 2000px;
 	height: 350px;
 	border-bottom: 1px solid black; 
-	padding: 20px;
+	padding: 0px;
 	align-content: center; 
 	
 		
@@ -186,9 +199,125 @@ h1 {
 }
 
 .contact {
-	display: inline-flex;
-	height: 100px;
+	/* display: flex; */
+	height: 50px;
 	 padding: 10px; 
 	margin: 100px; 
 }
-  
+  h3 {
+	  font-size: 30px;
+	  padding: 10px;
+  }
+  .container {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  height: 800px;
+	  width: 900px;
+	  border-bottom: 2px solid black;
+	  /* padding: 10px; */
+	  margin: 0px 460px;
+	  /* align-content: stretch; */
+  }
+
+  .child1 {
+	  height: 225px;
+	  width: 400px;
+	  background: lightgray;
+	  margin: 20px;
+	  color: black;
+	  text-align: center;
+	   padding-top: 40px; 
+	  box-sizing: border-box;
+	 
+ }
+  .child2 {
+	height: 225px;
+	width: 400px;
+	background: lightgray;
+	margin: 20px;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+ }
+  .child3 {
+	height: 225px;
+	width: 400px;
+	background: lightgray;
+	margin: 20px;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+  .child4 {
+	height: 225px;
+	width: 400px;
+	background: lightgray;
+	margin: 20px;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+  .child5 {
+	height: 225px;
+	width: 400px;
+	background: lightgray;
+	margin: 20px;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+  .child6 {
+	height: 225px;
+	width: 400px; 
+	background: lightgray;
+	margin: 20px;
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.facts {
+	/*display: flex;
+	padding: 20px;
+	margin: 20px;
+	flex-direction: row;
+	flex-wrap: wrap;*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 400px;
+	width: 900px;
+	
+	
+	
+
+}
+.factschild1 {
+	width:400px;
+	padding: 20px;
+	margin: 20px;
+	
+}
+.factschild2 {
+	width:400px;
+	
+	margin: 20px;
+	
+}
+.factschild3 {
+	width:400px;
+	padding: 20px;
+	margin: 20px;
+	
+}
+.factschild4 {
+	
+	
+	margin: 20px;
+	
+}
